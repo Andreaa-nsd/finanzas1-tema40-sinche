@@ -1,0 +1,9 @@
+﻿Variable,Serie,Estadístico ADF,p-valor,Conclusión (5%)
+Rendimiento bono 10 años (%),Nivel,-2.48,0.1204,No estacionaria
+Rendimiento bono 10 años (%),Primera diferencia,-11.002,0.0,Estacionaria
+Expectativa de inflación 12 meses (%),Nivel,-2.501,0.1153,No estacionaria
+Expectativa de inflación 12 meses (%),Primera diferencia,-6.586,0.0,Estacionaria
+Inflación IPC 12 meses (%),Nivel,-3.058,0.0298,Estacionaria
+Inflación IPC 12 meses (%),Primera diferencia,-3.436,0.0098,Estacionaria
+Tasa de referencia BCRP (%),Nivel,-3.251,0.0172,Estacionaria
+Tasa de referencia BCRP (%),Primera diferencia,-3.049,0.0306,Estacionaria

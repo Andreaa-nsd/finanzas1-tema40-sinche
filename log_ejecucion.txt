@@ -1,0 +1,18 @@
+2026-09-24 01:33:03 | INICIO de extracción | periodo 2010-1 a 2026-7
+2026-09-24 01:33:04 | PD31895MM (rend_bono10a) | HTTP 200 | 199 filas
+2026-09-24 01:33:59 | INICIO de extracción | periodo 2010-1 a 2026-7
+2026-09-24 01:34:00 | PD31895MM (rend_bono10a) | HTTP 200 | 199 filas
+2026-09-24 01:34:02 | PD12912AM (expect_infl_12m) | HTTP 200 | 199 filas
+2026-09-24 01:34:04 | PN01273PM (inflacion_12m) | HTTP 200 | 199 filas
+2026-09-24 01:34:06 | PD04722MM (tasa_referencia) | HTTP 200 | 199 filas
+2026-09-24 01:34:07 | FIN | 199 periodos guardados en datos_crudos_2024200529I.csv
+2026-09-24 01:39:23 | INICIO de limpieza
+2026-09-24 01:39:23 | Archivo crudo leído: 199 filas y 5 columnas
+2026-09-24 01:39:23 | Faltantes por variable: rend_bono10a=0, expect_infl_12m=0, inflacion_12m=0, tasa_referencia=0
+2026-09-24 01:39:23 | Meses eliminados por faltantes: 0
+2026-09-24 01:39:23 | Outliers (IQR) en rend_bono10a: 2 (se conservan)
+2026-09-24 01:39:23 | Outliers (IQR) en expect_infl_12m: 17 (se conservan)
+2026-09-24 01:39:23 | Outliers (IQR) en inflacion_12m: 15 (se conservan)
+2026-09-24 01:39:23 | Outliers (IQR) en tasa_referencia: 32 (se conservan)
+2026-09-24 01:39:23 | Guardado datos_procesados_2024200529I.csv: 199 filas y 6 columnas
+2026-09-24 01:39:23 | SHA-256 de datos_procesados_2024200529I.csv: 7c0f1afb6834ab09a0345ec2c1f7f4f91a6b0eb82eb47660f2a4b1e7db30a651

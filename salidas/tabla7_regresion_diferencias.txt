@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           rend_bono10a   R-squared:                       0.136
+Model:                            OLS   Adj. R-squared:                  0.122
+Method:                 Least Squares   F-statistic:                     14.57
+Date:                Thu, 24 Sep 2026   Prob (F-statistic):           1.35e-08
+Time:                        01:52:07   Log-Likelihood:                -9.5579
+No. Observations:                 198   AIC:                             27.12
+Df Residuals:                     194   BIC:                             40.27
+Df Model:                           3                                         
+Covariance Type:                  HAC                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -0.0018      0.017     -0.109      0.913      -0.034       0.031
+expect_infl_12m     0.4295      0.125      3.428      0.001       0.184       0.675
+inflacion_12m       0.1688      0.048      3.544      0.000       0.075       0.262
+tasa_referencia    -0.1068      0.148     -0.722      0.470      -0.397       0.183
+==============================================================================
+Omnibus:                       27.157   Durbin-Watson:                   1.779
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               42.987
+Skew:                           0.759   Prob(JB):                     4.63e-10
+Kurtosis:                       4.704   Cond. No.                         8.21
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 12 lags and without small sample correction

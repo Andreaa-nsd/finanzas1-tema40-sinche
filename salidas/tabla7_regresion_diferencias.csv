@@ -1,0 +1,5 @@
+﻿,Coeficiente,Error estándar (NW),Estadístico z,p-valor
+const,-0.0018,0.0165,-0.1087,0.9135
+d_expect_infl_12m,0.4295,0.1253,3.4285,0.0006
+d_inflacion_12m,0.1688,0.0476,3.5439,0.0004
+d_tasa_referencia,-0.1068,0.148,-0.7218,0.4704
