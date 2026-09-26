@@ -96,4 +96,4 @@ Se utilizó un asistente de IA (Claude, de Anthropic) para escribir y depurar el
 
 ## 8. Repositorio
 
-GitHub: *(pendiente: agregar enlace)*
+GitHub: https://github.com/Andreaa-nsd/finanzas1-tema40-sinche
