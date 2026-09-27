@@ -34,7 +34,7 @@ SERIES = {
 
 # Endpoint de la API de BCRPData: /api/{código}/json/{inicio}/{fin}/esp
 ENDPOINT = "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/{codigo}/json/{inicio}/{fin}/esp"
-USER_AGENT = "Mozilla/5.0 (Tarea academica UNCP Finanzas I - e_2024200529I@uncp.edu.pe)"
+USER_AGENT = "Mozilla/5.0 (Tarea academica UNCP Finanzas I - Andrea Sinche, cod. 2024200529I)"
 PAUSA_SEGUNDOS = 1.5  # pausa entre solicitudes (la consigna exige mínimo 1 segundo)
 
 # ------------- RUTAS RELATIVAS A LA CARPETA DEL PROYECTO -------------
