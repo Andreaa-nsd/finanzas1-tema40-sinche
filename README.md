@@ -40,6 +40,7 @@ Los bonos VAC no se usaron por falta de datos y por el bloqueo de la fuente alte
 3_BaseDatos_Andrea_Sinche/
 ├── codigo/
 │   ├── 01_extraccion_api.py
+│   ├── 02_scraping_web.py   (no aplica)
 │   ├── 03_limpieza_datos.py
 │   └── 04_analisis.py
 ├── datos_crudos/          (respuestas originales de la API, sin editar)
@@ -53,7 +54,7 @@ Los bonos VAC no se usaron por falta de datos y por el bloqueo de la fuente alte
 └── README.md
 ```
 
-El script `02_scraping_web.py` no se incluye: en la Unidad I la segunda vía es opcional.
+El script `02_scraping_web.py` se incluye solo para respetar la estructura de `/codigo`: no aplica, porque en la Unidad I la segunda vía es opcional y la descarga del MEF está bloqueada (ver `incidencias_fuente.md`).
 
 ## 4. Orden de ejecución
 
