@@ -1,5 +1,5 @@
 ﻿,rend_bono10a,expect_infl_12m,inflacion_12m,tasa_referencia
 rend_bono10a,1.0,0.723,0.609,0.68
 expect_infl_12m,0.723,1.0,0.922,0.594
-inflacion_12m,0.609,0.922,1.0,0.543
-tasa_referencia,0.68,0.594,0.543,1.0
+inflacion_12m,0.609,0.922,1.0,0.544
+tasa_referencia,0.68,0.594,0.544,1.0

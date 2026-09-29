@@ -1,7 +1,7 @@
 # Nombre: Andrea Nicolle Sinche De La Cruz
 # Código de matrícula: 2024200529I
 # Tema 40: Bonos nominales frente a bonos indexados (VAC): expectativas de inflación implícitas
-# Fecha de extracción: 24/09/2026
+# Fecha de extracción: 28/09/2026
 
 """
 01_extraccion_api.py
@@ -21,7 +21,7 @@ from pathlib import Path
 
 # ------------- PARÁMETROS CONGELADOS (si se cambian, actualizar el README) -------------
 FECHA_INICIO = "2010-1"   # enero de 2010
-FECHA_CORTE = "2026-7"    # julio de 2026: último mes publicado para las 4 series al 24/09/2026
+FECHA_CORTE = "2026-8"    # agosto de 2026: último mes publicado para las 4 series al 28/09/2026
 CODIGO_MATRICULA = "2024200529I"
 
 # Variables del estudio: nombre de la variable -> código de la serie en BCRPData

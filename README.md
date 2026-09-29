@@ -7,7 +7,7 @@
 
 **Tema 40:** Bonos nominales frente a bonos indexados (VAC): expectativas de inflación implícitas.
 
-**Objetivo empírico:** medir cuánto de la inflación esperada se incorpora en el rendimiento de los bonos soberanos nominales en soles (efecto Fisher), Perú, enero 2010 – julio 2026.
+**Objetivo empírico:** medir cuánto de la inflación esperada se incorpora en el rendimiento de los bonos soberanos nominales en soles (efecto Fisher), Perú, enero 2010 – agosto 2026.
 
 ---
 
@@ -30,9 +30,9 @@ Los bonos VAC no se usaron por falta de datos y por el bloqueo de la fuente alte
 ## 2. Parámetros congelados
 
 - `FECHA_INICIO = "2010-1"` (enero de 2010)
-- `FECHA_CORTE = "2026-7"` (julio de 2026)
-- Fecha y hora de la extracción original: 24/09/2026, 01:33–01:34 (ver `log_ejecucion.txt`)
-- Observaciones: **199 meses** por variable, sin datos faltantes.
+- `FECHA_CORTE = "2026-8"` (agosto de 2026)
+- Extracción vigente: 28/09/2026, 20:17 (ver `log_ejecucion.txt`). La primera versión (24/09/2026) llegaba a julio de 2026; el 28/09/2026 se amplió el corte a agosto de 2026 para alcanzar el mínimo de 800 observaciones. El log conserva también una ejecución de prueba de ese día (20:15, periodo 2009-1 a 2026-7) que no se usó.
+- Observaciones: **200 meses × 4 variables = 800 observaciones**, sin datos faltantes.
 
 ## 3. Estructura de la carpeta
 
@@ -85,7 +85,7 @@ py codigo/04_analisis.py
 Hash SHA-256 de `datos_procesados/datos_procesados_2024200529I.csv` (entregado):
 
 ```
-7c0f1afb6834ab09a0345ec2c1f7f4f91a6b0eb82eb47660f2a4b1e7db30a651
+07837fa928179f155836087ffc06833af4e01894e9d69501fd2f8132f964c29b
 ```
 
 Este hash corresponde al archivo entregado. BCRPData puede revisar sus series después de la fecha de corte; si una reejecución produce otro hash, la fecha y hora de la extracción original constan en `log_ejecucion.txt`.

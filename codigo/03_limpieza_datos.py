@@ -1,7 +1,7 @@
 # Nombre: Andrea Nicolle Sinche De La Cruz
 # Código de matrícula: 2024200529I
 # Tema 40: Bonos nominales frente a bonos indexados (VAC): expectativas de inflación implícitas
-# Fecha de extracción: 24/09/2026
+# Fecha de extracción: 28/09/2026
 
 """
 03_limpieza_datos.py

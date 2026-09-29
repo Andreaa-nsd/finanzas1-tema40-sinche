@@ -2,25 +2,25 @@
 ==============================================================================
 Dep. Variable:           rend_bono10a   R-squared:                       0.640
 Model:                            OLS   Adj. R-squared:                  0.635
-Method:                 Least Squares   F-statistic:                     94.01
-Date:                Thu, 24 Sep 2026   Prob (F-statistic):           1.14e-37
-Time:                        01:52:07   Log-Likelihood:                -180.50
-No. Observations:                 199   AIC:                             369.0
-Df Residuals:                     195   BIC:                             382.2
+Method:                 Least Squares   F-statistic:                     94.94
+Date:                Mon, 28 Sep 2026   Prob (F-statistic):           5.56e-38
+Time:                        20:21:00   Log-Likelihood:                -180.95
+No. Observations:                 200   AIC:                             369.9
+Df Residuals:                     196   BIC:                             383.1
 Df Model:                           3                                         
 Covariance Type:                  HAC                                         
 ===================================================================================
                       coef    std err          z      P>|z|      [0.025      0.975]
 -----------------------------------------------------------------------------------
-const               2.3411      0.374      6.256      0.000       1.608       3.075
-expect_infl_12m     1.1982      0.251      4.773      0.000       0.706       1.690
-inflacion_12m      -0.2030      0.095     -2.137      0.033      -0.389      -0.017
-tasa_referencia     0.2187      0.072      3.051      0.002       0.078       0.359
+const               2.3440      0.373      6.284      0.000       1.613       3.075
+expect_infl_12m     1.1964      0.251      4.774      0.000       0.705       1.688
+inflacion_12m      -0.2020      0.095     -2.129      0.033      -0.388      -0.016
+tasa_referencia     0.2188      0.072      3.056      0.002       0.078       0.359
 ==============================================================================
-Omnibus:                       15.713   Durbin-Watson:                   0.245
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               17.023
-Skew:                          -0.672   Prob(JB):                     0.000201
-Kurtosis:                       3.498   Cond. No.                         46.4
+Omnibus:                       16.055   Durbin-Watson:                   0.245
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               17.471
+Skew:                          -0.676   Prob(JB):                     0.000161
+Kurtosis:                       3.516   Cond. No.                         46.5
 ==============================================================================
 
 Notes:
